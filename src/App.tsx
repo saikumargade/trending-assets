@@ -3,8 +3,13 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <div className="group relative asset-container bg-blue-dark">
+      <div className="h-80 bg-blue-light rounded-xl asset-card">
+        <div className="asset-icon">
+          <img alt="solana" src={require("./assets/solana.png")} />
+        </div>
+        <div className="asset-content"></div>
+      </div>
     </div>
   );
 }
