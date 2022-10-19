@@ -4,12 +4,17 @@
 
 @import url('https://fonts.googleapis.com/css?family=Tomorrow');
 
+.body {
+  overflow: scroll;
+  font-family: 'Tomorrow';
+  height: 100vh;
+}
+
 .asset-container {
-  overflow: hidden;
   padding: 150px 40px 0px;
+  height: 460px;
   display: flex;
   flex-wrap:wrap;
-  height: 100vh;
   justify-content: space-between;
   align-content: center;
 }
@@ -17,7 +22,6 @@
 .asset-card {
   display: flex;
   flex-direction: column;
-  font-family: 'Tomorrow';
   align-items: center;
   min-width: 250px;
   height: 310px;
